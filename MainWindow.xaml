@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="383" Width="340">
+    <Grid Margin="0,0,-130,-40" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="-0.116"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.Background>
+            <ImageBrush ImageSource="/337084.webp"/>
+        </Grid.Background>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="141,97,0,0" TextWrapping="Wrap" Text="3443" VerticalAlignment="Top" Width="308" Background="#FF1ACA9E" FontFamily="Segoe UI Black"/>
+        <Button Content="&#xD;&#xA;%&#xD;&#xA;" HorizontalAlignment="Left" Margin="141,146,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" Click="Button_Click" FontSize="14" FontFamily="Segoe UI Black"/>
+        <Button Content="OF" HorizontalAlignment="Left" Margin="302,149,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" Click="Button_Click_2" FontFamily="Segoe UI Black" FontSize="14"/>
+        <Button Content="CE" HorizontalAlignment="Left" Margin="221,148,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" Click="Button_Click_1" FontSize="16" FontFamily="Segoe UI Black"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="301,200,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" FontFamily="Segoe UI Black" FontSize="14"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="221,200,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" FontSize="14" FontFamily="Segoe UI Black"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="141,200,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" FontSize="14" FontFamily="Segoe UI Black"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="141,252,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" FontFamily="Segoe UI Black" FontSize="14"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="221,252,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" RenderTransformOrigin="0.699,0.327" FontFamily="Segoe UI Black" FontSize="14"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="301,251,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" FontSize="14" FontFamily="Segoe UI Black"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="141,305,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" FontSize="14" FontFamily="Segoe UI Black"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="221,304,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" FontFamily="Segoe UI Black"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="301,304,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" FontSize="14" FontFamily="Segoe UI Black"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="141,359,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="155" Height="43" Click="Button_Click_3"/>
+        <Button Content="&#xA;*&#xA;" HorizontalAlignment="Left" Margin="301,358,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" Click="Button_Click" FontSize="14" FontFamily="Segoe UI Black"/>
+        <Button Content="&#xA;/&#xA;" HorizontalAlignment="Left" Margin="381,150,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" Click="Button_Click" FontSize="14" FontFamily="Segoe UI Black"/>
+        <Button Content="&#xA;.&#xA;" HorizontalAlignment="Left" Margin="381,205,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" Click="Button_Click" FontSize="14" FontFamily="Segoe UI Black" RenderTransformOrigin="3.272,1.704"/>
+        <Button Content="&#xA;+&#xA;" HorizontalAlignment="Left" Margin="381,254,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" Click="Button_Click" FontSize="14" FontFamily="Segoe UI Black"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="381,305,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" Click="Button_Click" FontSize="14" FontFamily="Segoe UI Black"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="381,359,0,0" VerticalAlignment="Top" Background="#FFF7CF11" Width="70" Height="43" Click="Button_Click" FontSize="14" FontFamily="Segoe UI Black"/>
+
+    </Grid>
+</Window>
